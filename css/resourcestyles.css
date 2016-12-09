@@ -1,0 +1,220 @@
+/*body {
+    margin: 10%;
+    margin-right: 13.2%;
+	background-image: url("images/lightgradient.jpg");
+	background-size: 100% 100%;
+    background-repeat: no-repeat;
+    border: 100%;
+    box-shadow: 14px 14px 14px #0D911D;
+    margin-top: 50px;
+/*	background-color: #89F596;
+}
+
+
+h1 {
+    font: bold;
+	font-size: 3.5em;
+    letter-spacing: 0px;
+}
+
+ul {
+    background-color: #000000;
+    font color: #1138AD;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #189E06;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #26D60F;
+    font color: white;
+
+}
+
+.section1{
+    margin: 0 auto;
+    margin-right: 3%;
+
+}
+
+.section2{
+    margin: 0 auto;
+    margin-right: 3%;
+
+}
+
+.section3{
+    margin: 0 auto;
+    margin-right: 3%;
+
+}
+
+.section4{
+    margin: 0 auto;
+    margin-right: 3%;
+
+}
+
+.section5{
+    margin: 0 auto;
+    margin-right: 3%;
+
+}
+
+.section6{
+    margin: 0 auto;
+    margin-right: 3%;
+
+}
+
+.section7{
+    margin: 0 auto;
+    margin-right: 3%;
+
+}
+
+.section8{
+    margin: 0 auto;
+    margin-right: 3%;
+}*/
+
+body, html {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    width: 100%;
+    height: 100vh;
+    margin: 0;
+    margin-top: -21px;
+    position: relative;
+    /*background-color: rgba(113, 113, 113, 0.6);*/
+
+    text-align: center;
+    color: white;
+
+    background: linear-gradient(
+                    rgba(113, 113, 113, 0.5),
+                    rgba(113, 113, 113, 0.5)
+                ),
+                url("../img/weedNbusyPeople.jpg");
+    background-repeat: none;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+}
+
+header h1 {
+    font-size: 4em;
+    padding-top: 160px;
+    padding-bottom: 10px;
+}
+
+header #credit {
+    /*position: absolute;
+    bottom: 0;
+    left: 0;
+    margin: 0 0 20px 20px;*/
+    margin: 0;
+}
+
+header a.start {
+    width: 200px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: 0 auto 60px;
+
+    font-size: 1.2em;
+    text-decoration: none;
+    color: white;
+
+    padding: 10px 15px;
+    border: 2px solid white;
+    border-radius: 2px;
+
+    transition: all ease-out 0.3s;
+}
+
+header a.start:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+    border-color: green;
+    color: green;
+}
+
+
+
+
+
+
+
+
+
+section {
+    width: 90%;
+    margin: 60px auto;
+    padding: 50px 0;
+}
+
+section h1 {
+    color: #717171;
+    margin: 20px 0 20px;
+}
+
+section .headerUnderline {
+    width: 10%;
+    margin: 20px 0 40px;
+    border-bottom: 2px solid green;
+}
+
+#businessSide article {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#businessSide article h3{
+    text-align: center;
+}
+
+#businessSide .video{
+    margin: 20px auto;
+}
+
+#businessSide .links {
+    width: 60%;
+    margin: 60px auto;
+}
+
+#businessSide .links h2{
+    text-align: center;
+}
+
+#businessSide .linkList {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+#businessSide .linkList li {
+    text-align: center;
+    margin: 20px 0;
+}

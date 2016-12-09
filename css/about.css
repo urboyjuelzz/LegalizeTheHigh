@@ -1,0 +1,238 @@
+/*Joel Ceballos
+Stylesheet for Legalize The High*/
+
+
+/*Navigation bar*/
+#home-nav {
+  width: 100%;
+  margin-top: 0;
+  text-align: center;
+}
+
+#home-nav a:hover{
+  background-color:   #bc2fb3;
+  color: white;
+}
+
+.navbar-logo{
+  float: left;
+  width: 100px;
+  z-index: 999;
+}
+
+.menu {
+  background-color: white;
+  margin: 0;
+  width: 100%;
+  height: 50px;
+  position: fixed;
+  z-index: 999;
+}
+
+.menu li{
+  margin: 20px auto;
+  list-style: none;
+  display: inline-block;
+}
+
+.menu a{
+  color: green;
+  /*display: inline-block;*/
+  font-family: arial;
+  text-transform: uppercase;
+  font-weight: bold;
+  border-radius: 8px;
+  padding: 20px 18px 9px;
+  text-decoration: none;
+  -webkit-transition-duration: 0.4s;
+  transition-duration: 0.4s;
+}
+
+/*About us info section*/
+
+#about-us{
+  background-image: url("../img/holdingItOut.jpg");
+  background-size: 100%;
+  /*min-height: 1000px;*/
+  height: 100vh;
+  z-index: 1;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat:no-repeat;
+  position: relative;
+}
+
+
+.parallax{
+
+}
+
+.header {
+  width: 100%;
+  text-align: center;
+  display: inline-block;
+  position: absolute;
+  margin-top: 300px;
+  color: white;
+}
+
+.text-wrapper{
+  width: 75%;
+  margin: 0 auto;
+  position: relative;
+  top: -70px;
+
+  padding: 15px 10px 20px;
+
+  border-radius: 5px;
+/*  background-color: rgba(0,0,0, 0.6);
+  background-image: linear-gradient(to bottom,transparent, black);
+*/}
+
+.header h1{
+  font-size: 60px;
+}
+.header h3{
+  /*font-size: 25px;*/
+}
+.header p {
+  margin: 10px;
+  font-size: 15px;
+  color: purple;
+}
+
+
+
+/*Team section*/
+
+#team {
+  /*background-image: url("images/Weed-Plant.jpg");
+  background-size: 100%;
+  min-height: 1000px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat:no-repeat;
+  position: relative;
+  width: 100%;
+  border: 1px;
+  text-align: center;
+  position: static;*/
+}
+
+.founders {
+  text-align: center;
+  margin-top: 150px;
+
+}
+.founder-heading {
+  padding-bottom: 40px;
+  font-size: 40px;
+  color: green;
+  font-weight: bold;
+}
+
+.founders h1{
+  font-size: 50px;
+  color: #696969;
+
+}
+
+.founders p{
+  font-size: 20px;
+}
+
+
+/*Picture section*/
+
+.member {
+  position: relative;
+  margin-left: 50px;
+  display: inline-table;
+  width: 300px;
+}
+
+
+NEEDs TO BE Centered
+/*.pics{
+  position: relative;
+  margin: 0 auto;
+}*/
+
+.member img:hover {
+  border-color: grey;
+
+}
+
+.member img{
+  display: block;
+  width: 180px;
+  height: 180px;
+  border-radius: 50%;
+  margin: 0 auto;
+  position: relative;
+  left: 0;
+  right: 0;
+}
+
+.member h4 {
+  font-size: 20px;
+  font-weight: bold;
+  color: grey;
+  text-align: center;
+}
+.member h5 {
+  font-size: 20px;
+  font-weight: bold;
+  color: #78B46E;
+  text-align: center;
+}
+
+.social-icons {
+  margin: 0 auto;
+}
+
+.social-icons a i {
+  font-size: 28px;
+  margin-left: 50px;
+
+}
+.icon {
+  margin: 20px;
+  text-align: center;
+}
+
+
+.member p {
+  color: grey;
+  padding: 20px 30px;
+  text-align: center;
+}
+
+#anthony {
+/*  display: block;
+  margin: 20px auto;
+  position: relative;
+  right: 0;
+  left: 0;*/
+}
+
+
+#msge{
+ height: 500px;
+ /*border-bottom: 2px solid black;*/
+}
+
+.container{
+ height: 190px;
+ border-radius: 10px;
+ width: 90%;
+ margin: 0 auto;
+}
+
+.paragraph{
+ /*margin-top: 150px;*/
+ font-size: 20px;
+ text-align: center;
+ color: purple;
+ margin-top: 150px;
+}

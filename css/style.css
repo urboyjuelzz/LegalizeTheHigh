@@ -1,0 +1,536 @@
+html, body {
+	margin: 0;
+	padding: 0;
+	overflow-x: hidden;
+}
+
+header {
+	width: 100%;
+	height: 100vh;
+	margin: 0;
+	position: relative;
+	/*background-color: rgba(113, 113, 113, 0.6);*/
+
+	text-align: center;
+	color: white;
+
+	background: linear-gradient(
+					rgba(113, 113, 113, 0.5),
+					rgba(113, 113, 113, 0.5)
+				),
+				url("../img/marijuana-farm.jpg");
+	background-repeat: none;
+	background-size: cover;
+	background-position: center center;
+	background-attachment: fixed;
+}
+
+header h1 {
+	font-size: 4em;
+	margin: 0;
+	padding-top: 160px;
+	padding-bottom: 20px;
+}
+
+header h3 {
+	margin: 0;
+}
+
+header a.start {
+	width: 200px;
+	position: absolute;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	margin: 0 auto 60px;
+
+	font-size: 1.2em;
+	text-decoration: none;
+	color: white;
+
+	padding: 10px 15px;
+	border: 2px solid white;
+	border-radius: 2px;
+
+	transition: all ease-out 0.3s;
+}
+
+header a.start:hover {
+	background-color: rgba(255, 255, 255, 0.2);
+	border-color: green;
+	color: green;
+}
+
+/*		Sections	*//*		Sections	*//*		Sections	*/
+/*		Sections	*//*		Sections	*//*		Sections	*/
+
+#objective {
+	margin: 150px 0;
+}
+
+#objective article {
+	width: 60%;
+	margin: 0 auto;
+}
+
+#objective article p {
+	width: 100%;
+	text-align: center;
+	font-size: 1.3em;
+	font-family: sans-serif;
+}
+
+
+
+
+
+
+
+
+
+
+
+#progress {
+	padding: 60px 0;
+	/*background-color: rgba(113, 113, 113, 0.8);*/
+	background-color: rgba(0, 0, 0, 0.8);
+}
+
+#progress h1 {
+	width: 50%;
+	margin: 40px auto;
+	text-align: center;
+	color: white;
+
+	padding-bottom: 10px;
+	border-bottom: 2px solid green;
+}
+
+#progress article {
+	width: 60%;
+	margin: 150px auto;
+}
+
+#progress article p {
+	width: 100%;
+	text-align: center;
+	font-size: 1.3em;
+	font-family: sans-serif;
+	color: #717171;
+}
+
+#progress div.listOStates {
+
+}
+
+	.listOStates h3 {
+		margin-bottom: 0;
+
+		text-align: center;
+		font-size: 2em;
+		color: white;
+
+		padding: 20px 0;
+		/*border-bottom: 2px solid green;*/
+		border-radius: 2px;
+	}
+
+	.listOStates .h3Underline {
+		width: 10%;
+		margin: 0 auto;
+		border-bottom: 2px solid green;
+	}
+
+	.listOStates .row {
+		/*background-color: white;*/
+		padding: 50px 10px;
+		/*margin: 0;*/
+	}
+
+	.listOStates .row .col-sm-4 {
+		margin: 0 0.6%;
+		width: 32%;
+		background-color: white;
+		height: 530px;
+		max-height: 530px;
+		padding: 20px 0;
+		border: 1px solid rgba(113, 113, 113, 0.4);
+		border-radius: 2px;
+	}
+
+		.listOStates .row .col-sm-4 h5 {
+			text-align: center;
+			color: green;
+			font-size: 2em;
+		}
+
+		.listOStates .row .col-sm-4 ul {
+			list-style-type: none;
+			padding: 0;
+			margin: 40px auto;
+		}
+
+
+		.listOStates .row .col-sm-4 ul li {
+			text-align: center;
+		}
+
+
+#progress div.onIndustry {
+	position: relative;
+	height: 530px;
+	background-image: url("../img/nativeRootsInterior.jpeg");
+	background-repeat: none;
+	background-size: cover;
+	background-position: center center;
+	background-attachment: fixed;
+}
+
+	.onIndustry .row {
+
+	}
+
+	.onIndustry .row #left {
+		height: 500px;
+		margin: 1.5% 0;
+		padding: 0;
+		padding-left: 20px;
+		margin-left: 15px;
+		background-color: rgba(1, 1, 1, 0.7);
+	}
+
+	.onIndustry .row #left h3 {
+		color: #717171;
+	}
+
+	.onIndustry .row #left .h3Underline {
+		width: 10%;
+		/*margin: 0 auto;*/
+		border-bottom: 2px solid green;
+	}
+
+	.onIndustry .row #left article {
+		margin: 40px 0;
+	}
+
+	.onIndustry .row #left article p {
+		font-size: 1.1em;
+		text-align: left;
+		color: rgba(255, 255, 255, 0.6);
+		line-height: 20px;
+	}
+
+
+
+
+
+
+
+
+
+
+#international {
+	padding: 60px 0;
+}
+
+#international h1 {
+	width: 50%;
+	margin: 40px auto;
+	text-align: center;
+
+	padding-bottom: 10px;
+	border-bottom: 2px solid green;
+}
+
+#international article {
+	width: 60%;
+	margin: 150px auto;
+}
+
+#international article p {
+	width: 100%;
+	text-align: center;
+	font-size: 1.3em;
+	font-family: sans-serif;
+}
+
+#international .canada {
+	/*max-height: 430px;*/
+	background-image: url("../img/amsterdamBackdrop.jpg");
+	background-repeat: none;
+	background-size: cover;
+	background-position: center center;
+	background-attachment: fixed;
+}
+	
+	#international .canada .row {
+
+	}
+
+	#international .canada .row .left {
+		/*height: 500px;*/
+		margin: 1.5% 0;
+		padding: 0;
+		padding-left: 20px;
+		margin-left: 15px;
+		background-color: rgba(1, 1, 1, 0.7);
+	}
+
+	#international .canada .row .left h3 {
+		color: #717171;
+	}
+
+	#international .canada .row .left .h3Underline {
+		width: 10%;
+		/*margin: 0 auto;*/
+		border-bottom: 2px solid green;
+	}
+
+	#international .canada .row .left article {
+		margin: 40px 0;
+	}
+
+	#international .canada .row .left article p {
+		font-size: 1.3em;
+		text-align: left;
+		color: rgba(255, 255, 255, 0.6);
+		line-height: 24px;
+	}
+
+
+
+
+
+#international .switzerland {
+	width: 85%;
+	margin: 60px auto;
+	padding: 0;
+
+	background-image: url("../img/switzerlandBackdrop.jpg");
+	background-repeat: none;
+	background-size: cover;
+	background-position: center center;
+	/*background-attachment: fixed;*/
+}
+
+#international .switzerland article {
+	padding: 40px 0;
+	margin: 60px auto;
+	background-color: rgba(1, 1, 1, 0.7);
+}
+
+#international .switzerland article h3 {
+	text-align: center;
+	color: #717171;
+}
+
+#international .switzerland article .h3Underline {
+	width: 10%;
+	margin: 0 auto;
+	border-bottom: 2px solid green;
+}
+
+#international .switzerland article p {
+	text-align: center;
+	color: rgba(255, 255, 255, 0.6);
+	width: 70%;
+	margin: 20px auto;
+}
+
+
+
+
+#international .spain {
+	/*max-height: 430px;*/
+	background-image: url("../img/spainBackdrop.jpeg");
+	background-repeat: none;
+	background-size: cover;
+	background-position: center center;
+	background-attachment: fixed;
+}
+	
+	#international .spain .row {
+
+	}
+
+	#international .spain .row .left {
+		/*height: 500px;*/
+		margin: 1.5% 0;
+		padding: 0;
+		padding-left: 20px;
+		margin-left: 15px;
+		background-color: rgba(1, 1, 1, 0.7);
+	}
+
+	#international .spain .row .left h3 {
+		color: #717171;
+	}
+
+	#international .spain .row .left .h3Underline {
+		width: 10%;
+		/*margin: 0 auto;*/
+		border-bottom: 2px solid green;
+	}
+
+	#international .spain .row .left article {
+		margin: 40px 0;
+	}
+
+	#international .spain .row .left article p {
+		font-size: 1.1em;
+		text-align: left;
+		color: rgba(255, 255, 255, 0.6);
+		line-height: 24px;
+	}
+
+
+
+
+
+
+
+
+
+#medicinal {
+	padding: 60px 0;
+}
+
+#medicinal h1 {
+	width: 50%;
+	margin: 40px auto;
+	text-align: center;
+
+	padding-bottom: 10px;
+	border-bottom: 2px solid green;
+}
+
+#medicinal article {
+	width: 60%;
+	margin: 150px auto;
+}
+
+#medicinal article p {
+	width: 100%;
+	text-align: center;
+	font-size: 1.3em;
+	font-family: sans-serif;
+}
+
+
+
+#medicinal .applications {
+	width: 100%;
+	padding: 40px 0;
+
+	background-image: url("../img/weedNbusyPeople.jpg");
+	background-repeat: none;
+	background-size: cover;
+	background-position: center center;
+	background-attachment: fixed;
+}
+	
+	#medicinal .applications h3 {
+		text-align: center;
+		color: white;
+	}
+
+	#medicinal .applications .h3Underline {
+		width: 10%;
+		margin: 0 auto 20px;
+		border-bottom: 2px solid green;
+	}
+
+	#medicinal .applications .row {
+		margin: 0;
+		padding: 0;
+	}
+
+	#medicinal .applications .row .apps {
+		margin: 15px 0.5%;
+		width: 31%;
+		height: 140px;
+		padding: 20px 15px;
+		box-sizing: border-box;
+		padding-left: 20px;
+		margin-left: 15px;
+		background-color: rgba(1, 1, 1, 0.7);
+		border: 1px solid rgba(1, 1, 1, 0.7);
+		border-radius: 2px;
+	}
+
+	#medicinal .applications .row .apps p {
+		color: white;
+		position: relative;
+		top: 50%;
+		transform: translateY(-50%);
+	}
+
+
+
+
+
+
+
+
+
+#explore {
+	padding: 50px 0 200px;
+}
+
+#explore p {
+	width: 60%;
+	margin: 20px auto;
+
+	font-size: 1.3em;
+	text-align: center;
+	color: #717171;
+}
+
+#explore .underline {
+	width: 10%;
+	margin: 10px auto;
+	border: 1px solid green;
+}
+
+#explore .links {
+	margin: 60px auto;
+}
+	
+	#explore .links .row {
+		margin: 0;
+		padding: 0;
+	}
+
+	#explore .links .row .link {
+		display: block;
+		width: 30%;
+		margin: 0 1.65%;
+
+		font-size: 1.5em;
+		text-align: center;
+		text-decoration: none;
+		color:  rgba(255, 255, 255, 0.6);
+
+		padding: 20px 25px;
+		border: 3px solid rgba(113, 113, 113, 0.6);
+
+		background: linear-gradient(
+					rgba(113, 113, 113, 0.5),
+					rgba(113, 113, 113, 0.5)
+				),
+				url("../img/marijuana-farm.jpg");
+		background-repeat: none;
+		background-size: cover;
+		background-position: center center;
+		background-attachment: fixed;
+
+		transition: all ease-out 0.3s;
+	}
+
+	#explore .links .row .link:hover {
+		color: white;
+		border-color: white;
+		background: linear-gradient(
+					rgba(113, 113, 113, 0.8),
+					rgba(113, 113, 113, 0.8);
+	}

@@ -1,0 +1,47 @@
+nav.navbar {
+	margin-bottom: 0;
+}
+
+nav.navbar {
+	background-color: rgba(113, 113, 113, 0.9);
+	border-radius: 0;
+}
+
+	nav.navbar .navbar-header {
+
+	}
+
+	nav.navbar .navbar-header button {
+		
+	}
+
+	nav.navbar .navbar-header .navbar-brand {
+		color: white;
+		transition: all ease-out 0.3s;
+	}
+
+	nav.navbar .navbar-header .navbar-brand:hover {
+		color: rgba(0, 255, 0, 0.6);
+	}
+
+	nav.navbar .navbar-nav {
+
+	}
+
+	nav.navbar .navbar-nav > li {
+
+	}
+
+	nav.navbar .navbar-nav > li > a {
+		color: white;
+		transition: all ease-out 0.3s;
+	}
+
+	nav.navbar .navbar-nav > li > a:hover {
+		color: rgba(0, 255, 0, 0.6);
+		background-color: #717171;
+	}
+
+	nav.navbar .navbar-nav > .active > a {
+		color: rgba(0, 255, 0, 0.6);
+	}
